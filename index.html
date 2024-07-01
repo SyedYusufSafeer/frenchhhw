@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brochure des Cours de Formation Professionnelle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .brochure {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .panel {
+            flex: 1;
+            padding: 2em;
+            border-right: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        .panel:last-child {
+            border-right: none;
+        }
+        header, footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .course-list h2 {
+            color: #4CAF50;
+            text-align: center;
+        }
+        .course-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .course-list li {
+            padding: 0.5em 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .course-list li:last-child {
+            border-bottom: none;
+        }
+        .introduction {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 1em;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .details {
+            margin-top: 1em;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Brochure des Cours de Formation Professionnelle</h1>
+        <p>MPCVET (Madhya Pradesh Council for Vocational Education & Training) vs SEPR, Lyon, France</p>
+    </header>
+    <div class="brochure">
+        <div class="panel">
+            <div class="introduction">
+                <p>Bienvenue dans notre brochure comparative des cours de formation professionnelle offerts par MPCVET en Inde et SEPR à Lyon, France.</p>
+            </div>
+            <div class="image-container">
+                <img src="https://example.com/image.jpg" alt="Image de formation professionnelle">
+            </div>
+        </div>
+        <div class="panel course-list">
+            <h2>MPCVET, Inde</h2>
+            <ul>
+                <li>Technicien en Électronique</li>
+                <li>Ingénierie Mécanique</li>
+                <li>Informatique et IT</li>
+                <li>Gestion Hôtelière</li>
+                <li>Design de Mode</li>
+                <li>Soins de Santé</li>
+                <li>Technologies Agricoles</li>
+            </ul>
+            <div class="details">
+                <p>MPCVET se concentre sur les compétences pratiques et la formation sur le terrain pour préparer les étudiants à des carrières industrielles et techniques. Les cours incluent des stages et des projets pratiques pour une expérience complète.</p>
+            </div>
+        </div>
+        <div class="panel course-list">
+            <h2>SEPR, Lyon, France</h2>
+            <ul>
+                <li>Arts de la Céramique</li>
+                <li>Bijouterie</li>
+                <li>Ébénisterie</li>
+                <li>Esthétique et Cosmétique</li>
+                <li>Gastronomie et Hôtellerie</li>
+                <li>Informatique</li>
+                <li>Maintenance Industrielle</li>
+            </ul>
+            <div class="details">
+                <p>SEPR est renommé pour ses cours artistiques et artisanaux. Les étudiants bénéficient d'ateliers spécialisés et d'une formation individualisée, favorisant la créativité et l'excellence dans les métiers d'art.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 SEPR, Lyon, France et MPCVET, Inde. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
